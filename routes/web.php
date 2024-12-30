@@ -10,4 +10,5 @@ Route::get('/', function () {
 
 Route::prefix('/')->group(function(){
     Route::get('/',[mainController::class,'index'])->name('index');
+    Route::get('/contact',[mainController::class,'contact'])->name('contact');
 });
