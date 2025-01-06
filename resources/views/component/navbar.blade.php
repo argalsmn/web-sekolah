@@ -1,5 +1,5 @@
 {{-- navbar --}}
-<div class="navbar z-50 lg:px-20 lg;py-10 px-2 py-4 top-0 backdrop-blur-lg w-full gap-1 capitalize text-lg flex fixed lg:relative">
+<div class="navbar z-50 lg:px-20 lg;py-10 px-2 py-4 top-0 backdrop-blur-md w-full gap-1 capitalize text-lg flex fixed lg:relative">
     <div class="logo flex items-center gap-4 z-1 lg:w-3/6 w-full">
         <img src="{{ asset('aset/smk-no-bg.png') }}" class="w-2/12 lg:w-1/12 max-md:hidden" alt="logo">
         <h1 class="capitalize text-3xl font-semibold lg:p-0 px-2 py-4">SMKN 1 kota bekasi</h1>
