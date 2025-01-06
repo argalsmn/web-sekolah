@@ -42,7 +42,7 @@
                 </div>
 
                 {{-- loop data alumni --}}
-                {{-- <div class="list w-full grid md:grid-cols-4 grid-cols-2 gap-4 items-center md:mt-5">
+                <div class="list w-full grid md:grid-cols-4 grid-cols-2 gap-4 items-center md:mt-5">
                     @foreach ($alumni as $item)
                         <div class="list-data flex w-full gap-4 items-center md:p-4 p-2 rounded-lg bg-white shadow-lg">
                             <img src="{{ url('aset/'. $item->universitas .'.png') }}" alt="" class="w-auto h-20">
@@ -52,11 +52,11 @@
                             </div>
                         </div>
                     @endforeach
-                </div> --}}
+                </div>
                 {{-- loop data alumni end --}}
 
                 {{-- data alumni sampel --}}
-                <div class="list w-full grid md:grid-cols-4 grid-cols-2 gap-4 items-center md:mt-5">
+                {{-- <div class="list w-full grid md:grid-cols-4 grid-cols-2 gap-4 items-center md:mt-5">
                     <div class="list-data flex w-full gap-4 items-center md:p-4 p-2 rounded-lg bg-white shadow-lg">
                         <img src="{{ url('aset/ugm.png') }}" alt="" class="w-auto h-20">
                         <div class="data">
@@ -155,7 +155,7 @@
                             <h1 class="md:text-lg text-sm capitalize">tata busana</h1>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 {{-- data alumni sampel end --}}
 
             </div>
