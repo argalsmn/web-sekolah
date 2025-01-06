@@ -26,19 +26,19 @@
                 <i class="bi bi-gear"></i>
                 <h1 class="hover:font-semibold">jurusan</h1>
             </a>
-            <a href="{{ url('/tentang-kami') }}" class="flex gap-2">
+            {{-- <a href="{{ url('/tentang-kami') }}" class="flex gap-2">
                 <i class="bi bi-person"></i>
                 <h1 class="hover:font-semibold">tentang kami</h1>
-            </a>
-            <a href="{{ url('/galeri') }}" class="flex gap-2">
+            </a> --}}
+            {{-- <a href="{{ url('/galeri') }}" class="flex gap-2">
                 <i class="bi bi-camera"></i>
                 <h1 class="hover:font-semibold">galeri</h1>
-            </a>
+            </a> --}}
             <a href="{{ url('/contact') }}" class="flex gap-2">
                 <i class="bi bi-telephone"></i>
                 <h1 class="hover:font-semibold">hubungi<span class=""> kami</span></h1>
             </a>
-            <a href="{{ url('/login') }}" class="flex gap-2">
+            <a href="{{ url('/dashboard') }}" class="flex gap-2">
                 <i class="bi bi-key"></i>
                 <h1 class="hover:font-semibold">log <span class=""> In</span></h1>
             </a>
@@ -53,16 +53,16 @@
                 <a href="{{ url('/jurusan') }}">
                     <h1 class="text-black text-3xl px-2 py-4">jurusan</h1>
                 </a>
-                <a href="{{ url('/tentang-kami') }}">
+                {{-- <a href="{{ url('/tentang-kami') }}">
                     <h1 class="text-black text-3xl px-2 py-4">tentang kami</h1>
-                </a>
+                </a> --}}
+                {{-- <a href="{{ url('/galeri') }}">
+                    <h1 class="text-black text-3xl px-2 py-4">galeri</h1>
+                </a> --}}
                 <a href="{{ url('/contact') }}">
                     <h1 class="text-black text-3xl px-2 py-4">hubungi kami</h1>
                 </a>
-                <a href="{{ url('/galeri') }}">
-                    <h1 class="text-black text-3xl px-2 py-4">galeri</h1>
-                </a>
-                <a href="{{ url('/login') }}">
+                <a href="{{ url('/dashboard') }}">
                     <h1 class="text-black text-3xl px-2 py-4">log In</h1>
                 </a>
             </div>
