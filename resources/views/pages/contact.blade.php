@@ -2,7 +2,7 @@
 @section('konten')
     <div class="main w-full">
         @include('component.navbar')
-        <div class="contact w-full flex flex-col p-10 max-md:mt-24 gap-4">
+        <div class="contact w-full flex flex-col p-10 max-md:mt-20 gap-4">
             <div class="info flex flex-col text-center justify-center items-center gap-2">
                 <h1 class="text-5xl font-semibold">Ada masukan? 🤔 Segera hubungi kita yaa! 📞✨ </h1>
                 <h1 class="md:text-2xl text-xl lg:w-8/12"> Jika ada masukan, keluhan, atau pertanyaan 💬❓ bisa contact kita

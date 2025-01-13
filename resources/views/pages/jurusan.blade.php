@@ -2,7 +2,7 @@
 @section('konten')
     <div class="main w-full">
         @include('component.navbar')
-        <div class="jurusan w-full justify-center items-center grid grid-cols-1 max-md:mt-24">
+        <div class="jurusan w-full justify-center items-center grid grid-cols-1 max-md:mt-20">
             <div class="info flex flex-col gap-2 pt-10 justify-center items-center px-10 md:px-20">
                 <h1 class="text-3xl font-semibold capitalize">Jurusan di SMKN 1 Kota Bekasi</h1>
                 <h1 class="text-lg md:text-xl md:w-8/12 text-center">SMKN 1 Kota Bekasi menawarkan 8 jurusan unggulan 📚✨

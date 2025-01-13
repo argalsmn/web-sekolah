@@ -49,7 +49,7 @@
                             <th class="font-bold border-2 py-1">universitas</th>
                             <th class="font-bold border-2 py-1">nama</th>
                             <th class="font-bold border-2 py-1">jurusan</th>
-                            <th colspan="2" class="font-bold border-2 py-1">Aksi</th>
+                            <th colspan="1" class="font-bold border-2 py-1">Aksi</th>
                         </tr>
                     </thead>
 
@@ -62,9 +62,9 @@
                                 <td class="border-2 py-1">{{ $item->nama }}</td>
                                 <td class="border-2 py-1">{{ $item->jurusan }}</td>
                                 <td class="flex">
-                                    <div class="w-full">
-                                        {{-- @include('component.btn-edit-alumni') --}}
-                                    </div>
+                                    {{-- <div class="w-full">
+                                        @include('component.btn-edit-alumni')
+                                    </div> --}}
                                     <div class="w-full">
                                         @include('component.btn-hapus-alumni')
                                     </div>
